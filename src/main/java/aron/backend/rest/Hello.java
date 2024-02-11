@@ -12,14 +12,15 @@ import jakarta.ws.rs.core.Response;
 @Produces(MediaType.APPLICATION_JSON)
 public class Hello {
 
-    @GET @Path("/{name}")
-    public Response sayHello( @PathParam("name") final String msg ) {
-        final String output = "{ \"message\": \"Hello, " + msg + "!\" }";
-        return Response.status(200).entity(output).build();
+    @GET
+    public String helloRoot(){
+        return "Hello from /hello!";
     }
 
     @GET
-    public String hi(){
-        return "hi";
+    @Path("/{name}")
+    public Response sayHello( @PathParam("name") final String msg ) {
+        final String output = "{ \"message\": \"Hello, " + msg + "!\" }";
+        return Response.status(200).entity(output).build();
     }
 }
