@@ -21,7 +21,7 @@ public class Shift {
             } else if ( shift.from() >= 10 && shift.to() <= 12 ) {
                 planned.add("Checkout");
             } else if ( shift.to() >= 14 && shift.to() <= 19 ) {
-                planned.add("Diary");
+                planned.add("Dairy");
             }
         }
 
