@@ -60,14 +60,11 @@
       <type>pom</type>
       <scope>compile</scope>
     </dependency>
-    <!-- jetty     -->
     <dependency>
       <groupId>org.glassfish.jersey.containers</groupId>
       <artifactId>jersey-container-jetty-http</artifactId>
       <version>3.1.5</version>
     </dependency>
-    <!-- jetty     -->
-    <!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-util -->
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-util</artifactId>
