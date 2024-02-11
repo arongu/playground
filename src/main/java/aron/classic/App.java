@@ -1,4 +1,4 @@
-package aron.prep;
+package aron.classic;
 
 public class App {
     public static void main( final String[] args ) {

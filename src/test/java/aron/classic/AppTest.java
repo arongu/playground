@@ -1,4 +1,4 @@
-package aron.prep;
+package aron.classic;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
