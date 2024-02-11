@@ -1,4 +1,4 @@
-package aron.backend.endpoints;
+package aron.backend.done;
 
 public record ShiftRecord(int from, int to) {
 }

@@ -1,4 +1,4 @@
-package aron.backend.endpoints;
+package aron.backend.done;
 
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
