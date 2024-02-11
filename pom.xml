@@ -40,7 +40,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!--  JAX-RS, jersey -->
+    <!-- JAX-RS, jersey -->
     <dependency>
       <groupId>org.glassfish.jersey.inject</groupId>
       <artifactId>jersey-hk2</artifactId>
