@@ -1,4 +1,4 @@
-package aron.backend.rest;
+package aron.backend.endpoints;
 
 public record HelloRecord(String message) {
 }

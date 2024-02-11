@@ -1,4 +1,4 @@
-package aron.backend.rest;
+package aron.backend.endpoints;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
